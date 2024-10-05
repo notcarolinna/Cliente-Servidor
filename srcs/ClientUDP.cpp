@@ -86,7 +86,6 @@ int main()
     int sockfd;
     char buffer[BUFFER_SIZE];
     struct sockaddr_in serverAddr;
-    struct sockaddr_in clientAddr;
     socklen_t addrLen = sizeof(serverAddr);
     std::string userIdentification = " ";
     std::string messageUser;

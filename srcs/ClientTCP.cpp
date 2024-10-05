@@ -90,7 +90,6 @@ int main()
     struct sockaddr_in serverAddr;
 
     int sendLen;
-    char buffer[BUFFER_SIZE];
     std::string messageUser;
 
     // socket()

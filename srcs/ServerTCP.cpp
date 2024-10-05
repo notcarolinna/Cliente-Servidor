@@ -160,7 +160,6 @@ int main()
     struct sockaddr_in clientAddr;
     socklen_t addrLen = sizeof(clientAddr);
 
-    char buffer[BUFFER_SIZE];
     std::map<int, std::string> Clients;
     std::mutex clientsMutex;
 
